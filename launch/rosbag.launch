@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="tf_publisher" output="screen" args="0 0 0 0 0 0 base_link odom 0.01"/>
+    <node pkg="rosbag" type="play" name="player" output="screen" args="-s 8 --clock $(find iturover_odometry_assignment)/rosbag/scenario.bag"/>
+</launch>

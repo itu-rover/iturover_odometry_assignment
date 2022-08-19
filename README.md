@@ -70,6 +70,13 @@ array'deki elemenlar sırasıyla sağ ön ve sağ arka tekerleğin dakikadaki d�
 
 Bu topicte aracın üzerindeki imudan gelen sensör verilerini bulabilirsiniz. Teker odometrisi için gerekli olmasa da dilerseniz bu veriyi de kullanabilirsiniz.
 
+IMU verisindeki oryantasyon bilgisi quaternion olarak gelmektedir. (x,y,z,w) Oryantasyon bilgisini kullanabilmek için quaternion olan oryantasyon bilgisini euler (roll,pitch,yaw) şekline çevirmeniz gerekebilir. 
+
+**Bknz.**
+* http://wiki.ros.org/tf2/Tutorials/Quaternions
+* tf2 kütüphanesinden euler_from_quaternion
+
+
 # Gerekli bilgiler
 Aşağıdaki ölçütlere ek olarak aracımızın teker yarıçapı 135mm'dir.
 

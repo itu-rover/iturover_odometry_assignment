@@ -17,21 +17,21 @@ Yukarıda gördüğünüz gezegen gezgini aracımızı Elektrik Elektronik Fakü
 
 Bir workspace oluşturun.
 
-`
+```
 mkdir ~/rover_ws
 cd ~/rover_ws
 catkin_init_workspace
 mkdir src
-`
+```
 
 Bu paketi klonlayıp derleyin.
 
-`
+```
 cd ~/rover_ws/src
 git clone https://github.com/itu-rover/iturover_odometry_assignment
 cd ..
 catkin build
-`
+```
 
 # Kullanım
 

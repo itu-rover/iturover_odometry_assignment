@@ -38,7 +38,7 @@ catkin build
 Rosbag dosyasını çalıştırın.
 
 `
-roslaunch itu_rover_odometry_assignment rosbag.launch
+roslaunch iturover_odometry_assignment rosbag.launch
 `
 
 Yukarıdaki komutu yazdıktan sonra gezintimiz sırasında araçta gerçekleşen veri transferlerinin aynıları bilgisayarınızda da gerçekleşecektir.

@@ -99,3 +99,5 @@ Aşağıdaki ölçütlere ek olarak aracımızın teker yarıçapı 135mm'dir.
 
 * https://www.cs.columbia.edu/~allen/F17/NOTES/icckinematics.pdf
 * https://www.cs.cmu.edu/~16311/s07/labs/NXTLabs/Lab%203.html
+* https://www.youtube.com/watch?v=aE7RQNhwnPQ
+* https://www.youtube.com/watch?v=XbXhA4k7Ur8
